@@ -1,1 +1,15 @@
-gassjdh
+1 . a convolutional neural network based algprithm was trained to output a measure of pulmonary disease severity on chest x-ray
+2 . pre-trained on 160,000 anterior posterior images from chest xpert and transfer learning on 314 frontal chest x-ray from covid-19 patients
+3 . PXS scores were correlated with radiographic severity scores independently 
+4 . A siamese neural network based severity score automatically measures radiographic covid-19 pulmonary disease severity which can be used to track disease change and predict subsequent intubation or death
+5 . Siamese neural networks take two seperate images as inputs, which are passed through twinned neural networks
+6 . The euclidean distance b/w the final two layers of the networks can be calculated which saves as a measure of diatence b/w the two images w.r.t imaging features being
+7 . Training - 161,590
+    validation - 169
+8 . 81% of the training images has abnormal lung labels
+9 . we used a simplified version of the radiographic assessment of lung edema(RALE) score
+10 . A convolutional siamese neural network architecture takes two seperate images as inputs, which are seprately passed through identical, subnetworks with shared weights, we build such a network using DenseNet121
+11 . As the underlaying subnetwork with intial pre-training on imagenet
+12 . we used a two-step training strategy, that involves pre-training with weak labels on the large cheXpert dataset using Contrasitive loss function followed by a transfer learning to the relatively small covid-19 training set using mean square error using the assigned mRALE scores as disease severity labels
+13 . The mean euclidean distance is the pulmonary X-ray severity(PXS) score
+

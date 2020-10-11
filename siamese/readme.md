@@ -1,4 +1,15 @@
-### Siamese Neural Network
+# Siamese Neural Network
+---
+#### One-shot learning
+there are various types of on-shot learning. they can be organized into five categories:
+- Data augmentation methods
+- Model-based methods
+- Metric based methods
+- Optimization based methods
+- Genrative modeling based methods
+
+Siamese networks comes under Metric based methods
+
 ---
 
 These were experimets i have done in the time while i am waiting for recommendation letter from my professors 
@@ -33,5 +44,9 @@ The dataset consists of chest X-ray images of covid-19 positive cases along with
 |  Resent50 | 0.979346  |
 
 
-
-
+> Notebook trained with data augmentation - [Link](https://www.kaggle.com/harshasatyavardhan/trained-with-adjusted-augmentation)
+> Notebook with all augmentations - [Link](https://www.kaggle.com/harshasatyavardhan/augmentations)
+> Notebook trained resnet18 without augmentations - [Link](https://www.kaggle.com/harshasatyavardhan/covid19-siamese-resnet18-without-augmentation)
+> Notebook trained resnet34 without augmentations - [Link](https://www.kaggle.com/harshasatyavardhan/covid19-siamese-resnet34-without-augmentation)
+> Notebook trained resnet50 without augmentations - [Link](https://www.kaggle.com/harshasatyavardhan/covid19-siamese-resnet50-without-augmentation)
+> Notebook trained without using cyclical learning rate - [Link](https://www.kaggle.com/harshasatyavardhan/fine-tune)

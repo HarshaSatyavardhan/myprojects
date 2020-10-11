@@ -4,7 +4,7 @@
 These were experimets i have done in the time while i am waiting for recommendation letter from my professors 
 
 #### Dataset
-I am going to conduct my experiments from kaggle dataset - [http://https://www.kaggle.com/tawsifurrahman/covid19-radiography-database](http://https://www.kaggle.com/tawsifurrahman/covid19-radiography-database)
+I am going to conduct my experiments from kaggle dataset - [link](http://https://www.kaggle.com/tawsifurrahman/covid19-radiography-database)
 The dataset consists of chest X-ray images of covid-19 positive cases along with normal and Viral Pneumonia images.
 
 -  covid-19 positive images - 219
@@ -24,7 +24,7 @@ The dataset consists of chest X-ray images of covid-19 positive cases along with
 
 ------------
 
-* The network is trained in two stages, first the resnet is trained with freezing previous layers and training head with high cyclical learning rate[link](https://arxiv.org/pdf/1803.09820.pdf). later all the layers were unfreezed and trained with small learning rate.
+* The network is trained in two stages, first the resnet is trained with freezing previous layers and training head with high cyclical learning rate [link](https://arxiv.org/pdf/1803.09820.pdf). later all the layers were unfreezed and trained with small learning rate.
 
 |  models | accuracy   |
 | ------------ | ------------ |

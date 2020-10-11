@@ -22,6 +22,16 @@ The dataset consists of chest X-ray images of covid-19 positive cases along with
 
 3. 80% dataset is used for training and remaining 20% for validation
 
+------------
+
+* The network is trained in two stages, first the resnet is trained with freezing previous layers and training head with high cyclical learning rate[link](https://arxiv.org/pdf/1803.09820.pdf). later all the layers were unfreezed and trained with small learning rate.
+
+|  models | accuracy   |
+| ------------ | ------------ |
+|  Resnet18 | 0.922547  |
+|  Resnet34 | 0.946644 |
+|  Resent50 | 0.979346  |
+
 
 
 

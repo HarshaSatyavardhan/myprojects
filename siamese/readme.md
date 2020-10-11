@@ -44,9 +44,9 @@ The dataset consists of chest X-ray images of covid-19 positive cases along with
 |  Resent50 | 0.979346  |
 
 
-> Notebook trained with data augmentation - [Link](https://www.kaggle.com/harshasatyavardhan/trained-with-adjusted-augmentation)
-> Notebook with all augmentations - [Link](https://www.kaggle.com/harshasatyavardhan/augmentations)
-> Notebook trained resnet18 without augmentations - [Link](https://www.kaggle.com/harshasatyavardhan/covid19-siamese-resnet18-without-augmentation)
-> Notebook trained resnet34 without augmentations - [Link](https://www.kaggle.com/harshasatyavardhan/covid19-siamese-resnet34-without-augmentation)
-> Notebook trained resnet50 without augmentations - [Link](https://www.kaggle.com/harshasatyavardhan/covid19-siamese-resnet50-without-augmentation)
-> Notebook trained without using cyclical learning rate - [Link](https://www.kaggle.com/harshasatyavardhan/fine-tune)
+> *Notebook trained with data augmentation - [Link](https://www.kaggle.com/harshasatyavardhan/trained-with-adjusted-augmentation)
+> *Notebook with all augmentations - [Link](https://www.kaggle.com/harshasatyavardhan/augmentations)
+> *Notebook trained resnet18 without augmentations - [Link](https://www.kaggle.com/harshasatyavardhan/covid19-siamese-resnet18-without-augmentation)
+> *Notebook trained resnet34 without augmentations - [Link](https://www.kaggle.com/harshasatyavardhan/covid19-siamese-resnet34-without-augmentation)
+> *Notebook trained resnet50 without augmentations - [Link](https://www.kaggle.com/harshasatyavardhan/covid19-siamese-resnet50-without-augmentation)
+> *Notebook trained without using cyclical learning rate - [Link](https://www.kaggle.com/harshasatyavardhan/fine-tune)
